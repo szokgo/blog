@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>零度解说</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-left: 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .card-content {
+            padding: 15px;
+        }
+        .card-content h3 {
+            margin-top: 0;
+        }
+        .date {
+            color: #888;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>零度解说</h1>
+        <nav>
+            <a href="#">首页</a>
+            <a href="#">油管</a>
+            <a href="#">B站</a>
+            <a href="#">视频</a>
+            <a href="#">加入会员</a>
+            <a href="#">社区交流</a>
+            <a href="#">零度会员</a>
+        </nav>
+    </header>
+
+    <div class="grid">
+        <div class="card">
+            <img src="claude3.5.jpg" alt="Claude 3.5">
+            <div class="card-content">
+                <h3>Claude 3.5 正式发布！直接免费用，力压 GPT-4o！都有哪些新功能？又该如何注册？| 零度解说</h3>
+                <p class="date">2024年6月23日</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="claude3.5-gpt4o.jpg" alt="Claude 3.5 vs GPT-4o">
+            <div class="card-content">
+                <h3>Claude 3.5 力压 GPT-4o！堪称迄今为止最强大的视觉模型，免费可用</h3>
+                <p class="date">2024年6月22日</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="fydeos.jpg" alt="FydeOS">
+            <div class="card-content">
+                <h3>有了它，电脑瞬间跑的飞快！内置Google Play 应用商店，支持安卓APP，老旧笔记本焕发第二春！FydeOS18 最新安装教程！| 零度解说</h3>
+                <p class="date">2024年6月20日</p>
+            </div>
+        </div>
+        <!-- Add more cards as needed -->
+    </div>
+</body>
+</html>
